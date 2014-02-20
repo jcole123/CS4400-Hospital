@@ -33,7 +33,7 @@ class Register {
                 $this->type = 1;
                 break;
             case 'admin':
-                $this->type = 1;
+                $this->type = 2; //you had $this->type = 1, I changed it to $this->type = 2
                 break;
         }
     }
