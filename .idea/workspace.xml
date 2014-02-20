@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13c7d5bf-beb5-48da-8853-2645fb6b86e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CS400/RegLayout.php" afterPath="$PROJECT_DIR$/CS400/RegLayout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CS400/Register.php" afterPath="$PROJECT_DIR$/CS400/Register.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CS4400-Hospital.iws" />
@@ -82,7 +80,7 @@
       <file leaf-file-name="RegLayout.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CS400/RegLayout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="21" selection-start="2369" selection-end="2369" vertical-scroll-proportion="0.38379532" vertical-offset="840" max-vertical-offset="1428">
+            <state line="60" column="22" selection-start="2370" selection-end="2370" vertical-scroll-proportion="0.38379532" vertical-offset="840" max-vertical-offset="1428">
               <folding />
             </state>
           </provider>
@@ -516,7 +514,7 @@
       <workItem from="1392687377192" duration="2994000" />
       <workItem from="1392916904352" duration="211000" />
       <workItem from="1392917145182" duration="1988000" />
-      <workItem from="1392932634980" duration="2645000" />
+      <workItem from="1392932634980" duration="2702000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit&#10;">
       <created>1392075142762</created>
@@ -534,11 +532,15 @@
       <created>1392934822642</created>
       <updated>1392934822642</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Accidentally deleted the register class last commit.">
+      <created>1392935328738</created>
+      <updated>1392935328738</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20684000" />
+    <option name="totallyTimeSpent" value="20741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -591,7 +593,8 @@
     <MESSAGE value="Added extremely basic register layout and some stuff we probably won't  use." />
     <MESSAGE value="Added extremely basic register layout and a class we probably won't use." />
     <MESSAGE value="Registration layout looks better." />
-    <option name="LAST_COMMIT_MESSAGE" value="Registration layout looks better." />
+    <MESSAGE value="Accidentally deleted the register class last commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Accidentally deleted the register class last commit." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -723,7 +726,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CS400/RegLayout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="21" selection-start="2369" selection-end="2369" vertical-scroll-proportion="0.38379532" vertical-offset="840" max-vertical-offset="1428">
+        <state line="60" column="22" selection-start="2370" selection-end="2370" vertical-scroll-proportion="0.38379532" vertical-offset="840" max-vertical-offset="1428">
           <folding />
         </state>
       </provider>
