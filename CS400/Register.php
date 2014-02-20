@@ -1,46 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from getbootstrap.com/examples/signin/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 02 Oct 2013 12:14:41 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/assets/ico/favicon.png">
+
+    <title>Register</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="examples/signin/signin.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+
+    <form class="form-signin" name="theform" form method="post"
+        <h2 class="form-signin-heading">New User Registration</h2>
+        <input type="text" class="form-control" name="user" placeholder="Username"  autofocus>
+        <input type="password" class="form-control" name="password" placeholder="Password">
+        <input type="password" class="form-control" name="confirm" placeholder="Confirm Password">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default" name="patient" id="patient">Patient</button>
+            <button type="button" class="btn btn-default" name="patient" id="doctor">Doctor</button>
+            <button type="button" class="btn btn-default" name="patient" id="admin">Admin</button>
+        </div>
+        <br></br>
+        <button class="btn btn-lg btn-primary btn-block" name="regbut" type="submit">Register</button>
+    </form>
+</div>
+
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: Justin
- * Date: 2/10/14
- * Time: 9:23 PM
- */
-
-class Register {
-
-    var $username;
-
-    var $password;
-
-    // 0 = patient, 1 = doctor, 2 = admin
-    var $type;
-
-    function Register($uName, $password) {
-        $this->username = $uName;
-        $this->password = $password;
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $user = htmlentities($_POST["user"]);
+    $type = htmlentities($_POST['select']);
+    $val1 = htmlentities($_POST['password']);
+    $val2 = htmlentities($_POST['confirm']);
+    if(empty($_POST['user']))
+        echo "Enter username";
+    else if(($val1 !== $val2))
+        echo "Passwords must match";
+    else if (strlen($val1)==0)
+        echo "Must have a password";
+    else {
+        $newUser = new Register($user,$val1);
+        $newUser->setType($type); //TODO:Fix this
+        echo $newUser->getType(),"stuff",$type;
+        echo "Registration Successful!";
     }
-
-    function getName() {
-            return $this->username;
+    function test_input($data)
+    {
+        $data = trim($data);
+        $data = stripslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
     }
-
-    function setType($type) {
-        switch ($type) {
-            case 'patient':
-                $this->type = 0;
-                break;
-            case 'Doctor':
-                $this->type = 1;
-                break;
-            case 'admin':
-                $this->type = 2; //you had $this->type = 1, I changed it to $this->type = 2
-                break;
-        }
-    }
-
-    function getType() {
-        return $this->type;
-    }
+}
 
 
-} 
+?>
+
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+</body>
+
+<!-- Mirrored from getbootstrap.com/examples/signin/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 02 Oct 2013 12:14:41 GMT -->
+</html>
