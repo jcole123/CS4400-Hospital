@@ -35,7 +35,7 @@
     <div class="btn-group" id="select">
         <button type="button" class="btn btn-default" name="patient" id="patient">Patient</button>
         <button type="button" class="btn btn-default" name="doctor" id="doctor">Doctor</button>
-        <button type="button" class="btn btn-default" name="admin" id="admin">Admin</button>
+        <button type="button" class="btn btn-default" name="admin1" id="admin">Admin</button>
     </div>
     <br></br>
     <button class="btn btn-lg btn-primary btn-block" name="regbut" type="submit">Register</button>
@@ -46,7 +46,8 @@
 include_once("./Register.php");
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $user = htmlentities($_POST["user"]);
-    $type = htmlentities($_POST['select']);
+    if(isset($_POST["select"]))
+        $type = "Admin";
     $val1 = htmlentities($_POST['password']);
     $val2 = htmlentities($_POST['confirm']);
     if(empty($_POST['user']))
@@ -57,7 +58,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo "Must have a password";
     else {
         $newUser = new Register($user,$val1);
-        $newUser->setType($type); //TODO:Fix this
+        $newUser->setType($type); //TODO:Fix type not being validated
         echo $newUser->getType(),"stuff",$type;
         echo "Registration Successful!";
     }
