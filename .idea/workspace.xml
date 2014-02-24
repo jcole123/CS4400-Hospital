@@ -1,89 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13c7d5bf-beb5-48da-8853-2645fb6b86e1" name="Default" comment="Accidentally deleted the register class last commit.&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/ico/apple-touch-icon-114-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/ico/apple-touch-icon-144-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/ico/apple-touch-icon-57-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/ico/apple-touch-icon-72-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/carousel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/ico/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/dist/fonts/glyphicons-halflings-regulard41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/grid.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/jumbotron-narrow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/jumbotron.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/justified-nav.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/navbar-fixed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/navbar-static.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/navbar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/non-responsive.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/offcanvas.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/sign-in.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/starter-template.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/sticky-footer-navbar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/sticky-footer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/screenshots/theme.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/customize/GET.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/jumbotron/Popover requires tooltip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/js/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/dist/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/dist/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/customize/bootstrap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/dist/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/dist/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/dist/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/carousel/carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/js/customizer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/css/docs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/js/filesaver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/grid/grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/js/holder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/components/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/css/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/customize/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/carousel/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/grid/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/jumbotron/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/jumbotron-narrow/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/justified-nav/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/navbar/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/navbar-fixed-top/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/navbar-static-top/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/non-responsive/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/offcanvas/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/signin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/starter-template/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/sticky-footer/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/sticky-footer-navbar/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/theme/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/getting-started/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/javascript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/js/jszip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/jumbotron-narrow/jumbotron-narrow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/jumbotron/jumbotron.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/justified-nav/justified-nav.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/js/less.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/navbar-fixed-top/navbar-fixed-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/navbar-static-top/navbar-static-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/navbar/navbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/non-responsive/non-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/offcanvas/offcanvas.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/offcanvas/offcanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/css/pygments-manni.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/js/raw-files.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/signin/signin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/starter-template/starter-template.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/sticky-footer-navbar/sticky-footer-navbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/sticky-footer/sticky-footer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/examples/theme/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS400/assets/js/uglify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CS400/RegLayout.php" afterPath="$PROJECT_DIR$/CS400/RegLayout.php" />
+    <list default="true" id="13c7d5bf-beb5-48da-8853-2645fb6b86e1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CS4400-Hospital.iws" />
@@ -606,7 +524,7 @@
       <workItem from="1392932634980" duration="4674000" />
       <workItem from="1392949972144" duration="597000" />
       <workItem from="1393273043820" duration="2283000" />
-      <workItem from="1393278301379" duration="114000" />
+      <workItem from="1393278301379" duration="261000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit&#10;">
       <created>1392075142762</created>
@@ -632,15 +550,19 @@
       <created>1392935344960</created>
       <updated>1392935344960</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Force push all the Bootstrap 3 stuff.&#10;">
+      <created>1393278557245</created>
+      <updated>1393278557245</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25707000" />
+    <option name="totallyTimeSpent" value="25854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -655,19 +577,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -691,7 +613,8 @@
     <MESSAGE value="Registration layout looks better." />
     <MESSAGE value="Accidentally deleted the register class last commit." />
     <MESSAGE value="Accidentally deleted the register class last commit.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Accidentally deleted the register class last commit.&#10;" />
+    <MESSAGE value="Force push all the Bootstrap 3 stuff.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Force push all the Bootstrap 3 stuff.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
