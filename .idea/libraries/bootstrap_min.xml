@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="bootstrap.min" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/dist/js/bootstrap.js" />
+        <item url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/jszip.js" />
+        <item url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/holder.js" />
+        <item url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/filesaver.js" />
+        <item url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/raw-files.js" />
+        <item url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/customizer.js" />
+        <item url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/application.js" />
+        <item url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/examples/offcanvas/offcanvas.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/dist/js/bootstrap.min.js" />
+      <root url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/less.js" />
+      <root url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/jquery.js" />
+      <root url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/uglify.js" />
+      <root url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/dist/js/bootstrap.js" />
+      <root url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/jszip.js" />
+      <root url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/holder.js" />
+      <root url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/filesaver.js" />
+      <root url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/raw-files.js" />
+      <root url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/customizer.js" />
+      <root url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/assets/js/application.js" />
+      <root url="file://$PROJECT_DIR$/CS400/Bootstrap 3 docs/examples/offcanvas/offcanvas.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
