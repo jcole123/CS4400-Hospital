@@ -45,7 +45,7 @@ function ajaxRequest()
 <div class='main'><h3>Please select a username and password to log in</h3>
 _END;
 
-$error = $user = $pass = $type = "";
+$error = $user = $pass = $confirm = $type = "";
 if (isset($_SESSION['user'])) destroySession();
 
 if (isset($_POST['user']))
@@ -55,10 +55,13 @@ if (isset($_POST['user']))
     
     if ($user == "" || $pass == "")
         $error = "Not all fields were entered<br /><br />";
+    if ($pass !== $confirm) 
+        $error = "Passwords must be identicle<br /><br />";
+    
     else
     {
         if (mysql_num_rows(queryMysql("SELECT * FROM members
-F		      WHERE user='$user'")))
+		      WHERE user='$user'")))
             $error = "That username already exists<br /><br />";
         else
 		  {
@@ -76,11 +79,15 @@ echo <<<_END
 <span class='fieldname'>Password</span>
 <input type='text' maxlength='16' name='pass'
     value='$pass' /><br />        
+<span class='fieldname'>Confirm Password</span>
+<input type='text' maxlength='16' name='confirm'
+    value='$confirm' /><br/><br/>        
+<span class='fieldname'>Type</span>
 <select id="type" value='$type'>
     <option value="patient">Patient</option>
     <option value="doctor">Doctor</option>
     <option value="admin">Administrator</option>
-</select>
+</select><br />
 _END;
 ?>
 
