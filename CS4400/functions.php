@@ -2,8 +2,8 @@
 date_default_timezone_set('America/New_York');
 $dbhost = 'localhost';
 $dbname = 'publications'; //put whatever you want here
-$dbuser = 'guidol92'; //your database username
-$dbpass = 'boricuoxo92'; //your database password
+$dbuser = 'justin'; //your database username
+$dbpass = 'stuff'; //your database password
 $appname = 'Hospital';
 
 mysql_connect($dbhost, $dbuser, $dbpass) or die(mysql_error());

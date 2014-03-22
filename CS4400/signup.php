@@ -42,10 +42,10 @@ function ajaxRequest()
     return request
 }
 </script>
-<div class='main'><h3>Please select an username and password to log in</h3>
+<div class='main'><h3>Please select a username and password to log in</h3>
 _END;
 
-$error = $user = $pass = "";
+$error = $user = $pass = $type = "";
 if (isset($_SESSION['user'])) destroySession();
 
 if (isset($_POST['user']))
@@ -58,7 +58,7 @@ if (isset($_POST['user']))
     else
     {
         if (mysql_num_rows(queryMysql("SELECT * FROM members
-		      WHERE user='$user'")))
+F		      WHERE user='$user'")))
             $error = "That username already exists<br /><br />";
         else
 		  {
@@ -75,9 +75,15 @@ echo <<<_END
     onBlur='checkUser(this)'/><span id='info'></span><br />
 <span class='fieldname'>Password</span>
 <input type='text' maxlength='16' name='pass'
-    value='$pass' /><br />
+    value='$pass' /><br />        
+<select id="type" value='$type'>
+    <option value="patient">Patient</option>
+    <option value="doctor">Doctor</option>
+    <option value="admin">Administrator</option>
+</select>
 _END;
 ?>
+
 
 <span class='fieldname'>&nbsp;</span>
 <input type='submit' value='Sign up' />
